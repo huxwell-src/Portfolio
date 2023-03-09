@@ -32,7 +32,7 @@ const Nav = () => {
   return (
     <nav className="fixed bottom-2 w-full overflow-hidden z-50  ">
       <div className="container mx-auto px-2 md:px-0 my-auto ">
-        <div className="bg-light-blue/75 w-full h-20  scroll-smooth backdrop-blur-2xl rounded-full max-w-[400px]  mx-auto px-5 flex items-center justify-between  text-2xl text-white/80 dark:text-white">
+        <div className="bg-hyper-light-blue/60 w-[95%] md:w-full  h-16  md:h-20  scroll-smooth backdrop-blur-2xl rounded-full max-w-[400px]  mx-auto px-5 flex items-center justify-between  text-2xl text-white/80 dark:text-white">
           {sections.map((section, index) => (
             <Link
               to={section.name}
@@ -41,7 +41,7 @@ const Nav = () => {
               duration={600}
               spy={true}
               offset={index === 0 ? -200 : 0}
-              className="cursor-pointer w-[60px] lg:my-3 h-[60px] flex items-center justify-center"
+              className="cursor-pointer w-[50px] md:w-[60px] lg:my-3 h-[50px] md:h-[60px] flex items-center justify-center"
             >
               <i className={section.icon}></i>
             </Link>

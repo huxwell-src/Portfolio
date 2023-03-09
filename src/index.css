@@ -44,7 +44,7 @@ body {
 
 .active {
   background-color: #f7f9f9c2;
-  color: rgb(52, 152, 219, 0.85);
+  color: rgb(52, 152, 219, 0.6);
   padding: 1rem;
   border-radius: 100%;
 }
