@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-lg leading-8 text-white;
+}
+
+.h2 {
+  @apply text-[32px] mb-6 tracking-[10%] uppercase;
+}
+
+.h3 {
+  @apply font-semibold text-[26px] mb-6 leading-[46px];
+}
+
+.btn {
+  @apply rounded-full bg-hyper-light-blue text-white font-medium transition-all duration-300;
+}
+
+.btn-sm {
+  @apply h-[48px] px-4 text-base hover:bg-light-blue active:scale-95;
+}
+
+.btn-lg {
+  @apply h-[56px] px-10 text-base hover:bg-light-blue active:scale-95;
+}
+
+.btn-link {
+  @apply text-base;
+}
+
+.section {
+  @apply py-8 lg:py-24 lg:h-screen flex items-center text-hyper-dark-blue dark:text-white;
+}
+
+.gradient-white {
+  @apply bg-gradient-to-r from-[#f1f1f1] to-[#FFFFFF];
+}
+
+.gradient-navy-dark {
+  @apply dark:bg-gradient-to-r dark:from-[#09203f] dark:to-[#101A32];
+}
+
+.active {
+  background-color: #f7f9f9c2;
+  color: rgb(52, 152, 219, 0.85);
+  padding: 1rem;
+  border-radius: 100%;
+}
