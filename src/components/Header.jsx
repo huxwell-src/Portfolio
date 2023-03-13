@@ -12,8 +12,8 @@ const Header = () => {
             </span>
           </a>
           <a href="https://drive.google.com/file/d/1riIgWk7QfUOJOyQsJ2KI59lOp_ctovmB/view?usp=share_link">
-            <button className="btn btn-sm ">
-              Download CV <i class="fa-solid fa-download mx-1 text-white"></i>
+            <button className="btn btn-sm text-white font ">
+              Download CV <i class="fa-solid fa-download mx-1 text-white "></i>
             </button>
           </a>
         </div>
