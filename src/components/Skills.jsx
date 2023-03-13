@@ -19,6 +19,8 @@ const Skills = () => {
             <Card
               tittle="Front end"
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
+              width="min-h-52"
+              height="lg:w-[48%]"
             >
               <a
                 href="https://www.w3schools.com/css/"
@@ -126,6 +128,8 @@ const Skills = () => {
             <Card
               tittle="Data Base"
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
+              width="min-h-52"
+              height="lg:w-[48%]"
             >
               <a
                 href="https://firebase.google.com/"
@@ -197,6 +201,8 @@ const Skills = () => {
             <Card
               tittle="Desing"
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
+              width="min-h-52"
+              height="lg:w-[48%]"
             >
               <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
                 {" "}
@@ -254,6 +260,8 @@ const Skills = () => {
             <Card
               tittle="Other"
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
+              width="min-h-52"
+              height="lg:w-[48%]"
             >
               <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
                 {" "}

@@ -4,7 +4,7 @@ const Card = ({ children, tittle, text, height, width }) => {
   return (
     <div
       className={
-        "rounded-xl bg-gray-100 p-3 m-2  min-h-52 lg:w-[48%] shadow-sm ring-1 ring-gray-200 hover:shadow-lg duration-400 transition-all" +
+        "rounded-xl bg-gray-100 p-3 m-2 shadow-sm ring-1 ring-gray-200 hover:shadow-lg duration-400 transition-all" +
         { height } +
         { width }
       }
