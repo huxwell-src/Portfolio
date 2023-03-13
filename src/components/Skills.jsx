@@ -306,7 +306,7 @@ const Skills = () => {
               >
                 {" "}
                 <img
-                  src="https://es.m.wikipedia.org/wiki/Archivo:WooCommerce_logo.svg"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/WooCommerce_logo.svg/512px-WooCommerce_logo.svg.png"
                   alt="Woocommerce"
                   width="40"
                   height="40"
