@@ -12,7 +12,7 @@ const Header = () => {
             </span>
           </a>
           <a
-            targed="__blank__"
+            targed="__blank"
             href="https://drive.google.com/file/d/1riIgWk7QfUOJOyQsJ2KI59lOp_ctovmB/view?usp=share_link"
           >
             <button className="btn btn-sm text-white font">

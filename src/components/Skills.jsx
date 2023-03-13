@@ -251,6 +251,69 @@ const Skills = () => {
                 />{" "}
               </a>
             </Card>
+            <Card
+              tittle="Other"
+              text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
+            >
+              <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+                {" "}
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+                  alt="git"
+                  width="40"
+                  height="40"
+                  className="mx-1"
+                />{" "}
+              </a>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">
+                {" "}
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                  alt="github"
+                  width="40"
+                  height="40"
+                  className="mx-1"
+                />{" "}
+              </a>
+              <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+                {" "}
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Linux_Logo_in_Linux_Libertine_Font.svg"
+                  alt="linux"
+                  width="40"
+                  height="40"
+                  className="mx-1"
+                />{" "}
+              </a>
+              <a
+                href="https://wordpress.com/es/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/512px-WordPress_blue_logo.svg.png"
+                  alt="Wordpress"
+                  width="40"
+                  height="40"
+                  className="mx-1"
+                />{" "}
+              </a>
+              <a
+                href="https://woocommerce.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <img
+                  src="https://es.m.wikipedia.org/wiki/Archivo:WooCommerce_logo.svg"
+                  alt="Woocommerce"
+                  width="40"
+                  height="40"
+                  className="mx-1"
+                />{" "}
+              </a>
+            </Card>
           </div>
         </div>
       </div>
