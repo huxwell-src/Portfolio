@@ -14,8 +14,13 @@ const Nav = () => {
       url: "About",
     },
     {
+      name: "Skills",
+      icon: "fa-solid fa-gears",
+      url: "Skills",
+    },
+    {
       name: "Services",
-      icon: "fa-solid fa-code",
+      icon: "fa-solid fa-laptop-code",
       url: "Services",
     },
     {
@@ -30,9 +35,9 @@ const Nav = () => {
     },
   ];
   return (
-    <nav className="fixed bottom-2 w-full overflow-hidden z-50  ">
+    <nav className="fixed bottom-4 w-full overflow-hidden z-50  ">
       <div className="container mx-auto px-2 md:px-0 my-auto ">
-        <div className="bg-hyper-light-blue/60 w-[95%] md:w-full  h-16  md:h-20  scroll-smooth backdrop-blur-2xl rounded-full max-w-[400px]  mx-auto px-5 flex items-center justify-between  text-2xl text-white/80 dark:text-white">
+        <div className="bg-sky-600/50 w-[95%] md:w-full h-20  scroll-smooth backdrop-blur-2xl rounded-full max-w-[400px]  mx-auto px-5 flex items-center justify-between  text-2xl text-gray-200/80 dark:text-gray-200">
           {sections.map((section, index) => (
             <Link
               to={section.name}

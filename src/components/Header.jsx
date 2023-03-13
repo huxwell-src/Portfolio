@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* LOGO */}
           <a href="#">
-            <span className="text-3xl font-semibold text-light-blue dark:text-white">
+            <span className="text-3xl font-semibold text-sky-500 dark:text-gray-200">
               Nicolas
             </span>
           </a>
