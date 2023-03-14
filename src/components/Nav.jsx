@@ -37,7 +37,7 @@ const Nav = () => {
   return (
     <nav className="fixed bottom-4 w-full overflow-hidden z-50  ">
       <div className="container mx-auto px-2 md:px-0 my-auto ">
-        <div className="bg-sky-600/50 w-[95%] md:w-full h-20  scroll-smooth backdrop-blur-2xl rounded-full max-w-[400px]  mx-auto px-5 flex items-center justify-between  text-2xl text-gray-200/80 dark:text-gray-200">
+        <div className="bg-sky-600/30   :bg-sky-600/50 w-[95%] md:w-full h-20  scroll-smooth backdrop-blur-2xl rounded-full max-w-[400px]  mx-auto px-5 flex items-center justify-between  text-2xl text-gray-200/80 dark:text-gray-200">
           {sections.map((section, index) => (
             <Link
               to={section.name}

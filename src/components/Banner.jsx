@@ -73,7 +73,7 @@ const Banner = () => {
                 {rrss.map((rrss) => (
                   <a
                     href={rrss.url}
-                    className="text-4xl my-4 text-sky-800 dark:text-gray-200 hover:text-sky-500 transition-all duration-300"
+                    className="text-4xl my-4 text-sky-800 dark:text-gray-200 hover:text-sky-600 transition-all duration-300"
                     target="_blank"
                   >
                     <i className={rrss.icon}></i>
@@ -88,7 +88,7 @@ const Banner = () => {
             <img
               src={foto}
               alt=""
-              className="rounded-full mx-auto max-h-[500px] "
+              className="rounded-full mx-auto max-h-[500px] photo border-sky-600/15 border-8 "
             />
           </div>
         </div>
