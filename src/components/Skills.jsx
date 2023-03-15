@@ -3,10 +3,12 @@ import Card from "./Card";
 import CentralTittle from "./CentralTittle";
 
 const Skills = () => {
+  const width = "lg:w-[48%]";
+  const height = "md:min-h-[240px]";
   return (
     <div className="section" id="Skills">
       <div className="container mx-auto">
-        <div className="flex justify-center flex-col  ">
+        <div className="flex justify-around flex-col  ">
           {/* Texto*/}
           <div>
             <CentralTittle
@@ -19,8 +21,8 @@ const Skills = () => {
             <Card
               tittle="Front end"
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
-              width="lg:w-[48%]"
-              height="md:min-h-[240px]"
+              width={width}
+              height={height}
             >
               <a
                 href="https://www.w3schools.com/css/"
@@ -119,8 +121,8 @@ const Skills = () => {
             <Card
               tittle="Data Base"
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
-              width="lg:w-[48%]"
-              height="md:min-h-[240px]"
+              width={width}
+              height={height}
             >
               <a
                 href="https://firebase.google.com/"
@@ -192,8 +194,8 @@ const Skills = () => {
             <Card
               tittle="Desing"
               text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
-              width="lg:w-[48%]"
-              height="md:min-h-[240px]"
+              width={width}
+              height={height}
             >
               <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
                 {" "}
@@ -251,8 +253,8 @@ const Skills = () => {
             <Card
               tittle="Other"
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
-              width="lg:w-[48%]"
-              height="md:min-h-[240px]"
+              width={width}
+              height={height}
             >
               <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
                 {" "}

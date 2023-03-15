@@ -35,10 +35,10 @@ const Contact = () => {
             subtittle="What are my skills?"
           ></CentralTittle>
         </div>
-        <div className="flex justify-around mb-16 ">
+        <div className="flex justify-between mb-16 ">
           <div
             ref={divRef}
-            className="w-full md:w-2/4 mx-5 lg:my-0 lg:w-1/3 bg-gray-100 p-6 rounded-2xl shadow-md ring-1 ring-gray-200"
+            className=" md:w-2/4  lg:w-1/3 mx-5 lg:my-0 bg-gray-100 p-6 rounded-2xl shadow-md ring-1 ring-gray-200"
           >
             <form action="" className="flex flex-col space-y-2">
               <label htmlFor="" className="mb-2 font-bold">
@@ -135,7 +135,6 @@ const Contact = () => {
               <div className="h-4 w-4 bg-amber-400 rounded-full"></div>
               <div className="h-4 w-4 bg-green-500 rounded-full"></div>
             </div>
-            <div className="text-white">p</div>
           </div>
         </div>
       </div>

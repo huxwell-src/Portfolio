@@ -3,7 +3,8 @@ import React from "react";
 const Card = ({ children, tittle, text, height, width, icon, flex, read }) => {
   return (
     <div
-      className={`rounded-xl mx-5 bg-gray-100 flex flex-col justify-around p-3 m-2 shadow-sm ring-1 ring-gray-200 hover:shadow-lg duration-400 transition-all  ${height} ${width} ${flex}`}
+      className={`rounded-xl mx-5 md:mx-0 bg-gray-100 flex flex-col justify-around p-3 m-2 shadow-sm ring-1 ring-gray-200 hover:shadow-lg duration-400 transition-all  
+      ${height} ${width} ${flex}`}
     >
       <i className={icon}></i>
 

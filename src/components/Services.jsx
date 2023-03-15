@@ -3,7 +3,7 @@ import CentralTittle from "./CentralTittle";
 import Card from "./Card";
 
 const Services = () => {
-  const width = "lg:w-[30%]";
+  const width = "w-full lg:w-[30%]";
   const height = "min-h-[30px]";
   const bgIcon =
     "text-2xl my-1 text-gray-50 bg-sky-500 p-5 h-[55px] w-[55px] flex justify-center items-center rounded-full";
@@ -15,7 +15,7 @@ const Services = () => {
           subtittle="What are my services?"
           text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
         ></CentralTittle>
-        <div className="flex flex-wrap flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-wrap flex-col md:flex-row justify-around items-center">
           <Card
             flex="items-center"
             icon={` fa-solid fa-code ${bgIcon} `}
