@@ -35,7 +35,7 @@ const Contact = () => {
             subtittle="What are my skills?"
           ></CentralTittle>
         </div>
-        <div className="flex justify-between mb-16 ">
+        <div className="flex justify-around mb-16 ">
           <div
             ref={divRef}
             className=" md:w-2/4  lg:w-1/3 mx-5 lg:my-0 bg-gray-100 p-6 rounded-2xl shadow-md ring-1 ring-gray-200"
@@ -126,9 +126,10 @@ const Contact = () => {
               </div>
             </form>
           </div>
+
           <div
             style={{ height: divHeight }}
-            className="w-2/4 mx-5 lg:my-0 lg:w-1/3 hidden md:flex flex-1  bg-gray-900/80 p-6 rounded-2xl shadow-md relative"
+            className="w-2/4 lg:my-0 lg:w-1/3 hidden md:flex bg-gray-900/80 p-6 rounded-2xl shadow-md relative"
           >
             <div className="flex space-x-2 ">
               <div className="h-4 w-4 bg-red-600 rounded-full"></div>

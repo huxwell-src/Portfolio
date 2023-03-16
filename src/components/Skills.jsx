@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div className="section" id="Skills">
       <div className="container mx-auto">
-        <div className="flex justify-around flex-col  ">
+        <div className="flex justify-center flex-col  ">
           {/* Texto*/}
           <div>
             <CentralTittle
@@ -17,7 +17,8 @@ const Skills = () => {
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
             ></CentralTittle>
           </div>
-          <div className="flex flex-wrap flex-col md:flex-row justify-center items-center">
+
+          <div className="flex flex-wrap flex-col md:flex-row justify-between items-center">
             <Card
               tittle="Front end"
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
