@@ -38,7 +38,7 @@ const Contact = () => {
         <div className="flex justify-around mb-16 ">
           <div
             ref={divRef}
-            className=" md:w-2/4  lg:w-1/3 mx-5 lg:my-0 bg-gray-100 p-6 rounded-2xl shadow-md ring-1 ring-gray-200"
+            className="w-full md:w-2/4  lg:w-1/3 mx-5 lg:my-0 bg-gray-100 p-6 rounded-2xl shadow-md ring-1 ring-gray-200"
           >
             <form action="" className="flex flex-col space-y-2">
               <label htmlFor="" className="mb-2 font-bold">
@@ -129,13 +129,14 @@ const Contact = () => {
 
           <div
             style={{ height: divHeight }}
-            className="w-2/4 lg:my-0 lg:w-1/3 hidden md:flex bg-gray-900/80 p-6 rounded-2xl shadow-md relative"
+            className=" w-2/4 lg:my-0 lg:w-1/3 hidden md:flex bg-gray-900/80 p-6 rounded-2xl shadow-md relative"
           >
             <div className="flex space-x-2 ">
               <div className="h-4 w-4 bg-red-600 rounded-full"></div>
               <div className="h-4 w-4 bg-amber-400 rounded-full"></div>
               <div className="h-4 w-4 bg-green-500 rounded-full"></div>
             </div>
+            <div></div>
           </div>
         </div>
       </div>

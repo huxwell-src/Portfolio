@@ -18,7 +18,7 @@ const Skills = () => {
             ></CentralTittle>
           </div>
 
-          <div className="flex flex-wrap flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-wrap flex-col md:flex-row justify-around  items-center">
             <Card
               tittle="Front end"
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
