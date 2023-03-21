@@ -4,7 +4,7 @@ import CentralTittle from "./CentralTittle";
 
 const Skills = () => {
   const width = "lg:w-[48%]";
-  const height = "md:min-h-[240px]";
+  const height = "md:min-h-[240px] lg:my-4";
   return (
     <div className="section" id="Skills">
       <div className="container mx-auto">
