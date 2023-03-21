@@ -14,10 +14,10 @@ const About = () => {
   return (
     <section className="section" id="About">
       <div className="container mx-auto">
-        <div className="mb-8">
+        <div className="mb-[-25px]">
           <CentralTittle tittle="About" subtittle="Who am i?"></CentralTittle>
         </div>
-        <div className="flex justify-around items-center flex-col-reverse md:flex-row ">
+        <div className="section-flex">
           <PhotoStack images={images} />
           <div className="w-11/12 md:w-1/2 h-96 bg-orange-500 mb-8 md:mb-0 "></div>
         </div>

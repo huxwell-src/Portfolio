@@ -46,6 +46,10 @@
   @apply dark:bg-gradient-to-r dark:from-[#09203f] dark:to-[#101A32];
 }
 
+.section-flex {
+  @apply flex justify-around items-center flex-col-reverse md:flex-row;
+}
+
 .active {
   background-color: #f7f9f9c2;
   color: rgb(52, 152, 219, 0.6);
