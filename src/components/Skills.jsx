@@ -1,10 +1,20 @@
 import React from "react";
 import Card from "./Card";
 import CentralTittle from "./CentralTittle";
+import Modal from "./Modal";
+import { useState } from "react";
 
 const Skills = () => {
   const width = "lg:w-[48%]";
   const height = "md:min-h-[240px] lg:my-4";
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const handleButtonClick = () => {
+    setIsModalOpen(true);
+  };
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <div className="section" id="Skills">
       <div className="container mx-auto">
@@ -21,10 +31,22 @@ const Skills = () => {
           <div className="flex flex-wrap flex-col md:flex-row justify-around  items-center">
             <Card
               tittle="Front end"
-              text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
+              text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
               width={width}
               height={height}
+              readmore={true}
+              read="ml-auto"
             >
+              <Modal
+                title="Modal Title"
+                onClose={handleCloseModal}
+                isOpen={isModalOpen}
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                turpis vel diam suscipit vehicula. Nullam lacinia, eros eu
+                aliquet facilisis, nibh nibh maximus nisl, eu tincidunt elit
+                justo eu enim.
+              </Modal>
               <a
                 href="https://www.w3schools.com/css/"
                 target="_blank"
@@ -124,6 +146,8 @@ const Skills = () => {
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
               width={width}
               height={height}
+              readmore={true}
+              read="ml-auto"
             >
               <a
                 href="https://firebase.google.com/"
@@ -197,6 +221,8 @@ const Skills = () => {
               text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
               width={width}
               height={height}
+              readmore={true}
+              read="ml-auto"
             >
               <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
                 {" "}
@@ -256,6 +282,8 @@ const Skills = () => {
               text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
               width={width}
               height={height}
+              readmore={true}
+              read="ml-auto"
             >
               <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
                 {" "}

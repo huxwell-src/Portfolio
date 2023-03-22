@@ -22,6 +22,7 @@ const Services = () => {
             height={height}
             width={width}
             read="ml-auto"
+            readmore={true}
             tittle="Web Development"
             text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
           ></Card>
@@ -31,6 +32,7 @@ const Services = () => {
             height={height}
             width={width}
             read="ml-auto"
+            readmore={true}
             tittle="Web Desing"
             text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
           ></Card>
@@ -40,6 +42,7 @@ const Services = () => {
             height={height}
             width={width}
             read="ml-auto"
+            readmore={true}
             tittle="E-Commerce"
             text=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis earum voluptatum sed quas sapiente natus magnam provident amet, veritatis rem cumque mollitia sint delectus! Accusamus deleniti earum nobis itaque eius. "
           ></Card>
