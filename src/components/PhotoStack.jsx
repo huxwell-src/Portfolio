@@ -9,8 +9,8 @@ const PhotoStack = ({ images }) => {
   };
 
   const getRandomOffset = () => {
-    const minOffset = -10;
-    const maxOffset = 10;
+    const minOffset = -30;
+    const maxOffset = 30;
     return {
       x: Math.floor(Math.random() * (maxOffset - minOffset + 1)) + minOffset,
       y: Math.floor(Math.random() * (maxOffset - minOffset + 1)) + minOffset,
@@ -18,8 +18,8 @@ const PhotoStack = ({ images }) => {
   };
 
   const getRandomRotation = () => {
-    const minDegrees = -8;
-    const maxDegrees = 8;
+    const minDegrees = -17;
+    const maxDegrees = 17;
     return (
       Math.floor(Math.random() * (maxDegrees - minDegrees + 1)) + minDegrees
     );
@@ -44,7 +44,7 @@ const PhotoStack = ({ images }) => {
             src={imageUrl}
             alt={`Image ${index}`}
             className={classNames(
-              "absolute top-0 left-0  border-sky-600/15 border-8 rounded-lg box-shadow-md transform transition-all duration-300 ease-out ",
+              "absolute top-0 left-0  border-gray-100 border-8 rounded-lg box-shadow-md transform transition-all duration-300 ease-out ",
               {
                 "z-50": isCurrentImage,
                 "z-40": !isCurrentImage && index === currentImageIndex - 1,
